@@ -1,0 +1,19 @@
+/* Horizontal.css */
+.left-arrow, .right-arrow {
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .scroll-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+  }
+  
+  .scroll-item {
+    flex: 0 0 auto;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
